@@ -26,12 +26,12 @@ public class BallControl : MonoBehaviour
         float rand = Random.Range(0, 2);
         if (rand < 1)
         {
-            rb2d.AddForce(new Vector2(20*rand, -15*rand)*ballSpeed); // y= -15
+            rb2d.AddForce(new Vector2(20, -15)*ballSpeed); // y= -15
 
         }
         else
         {
-            rb2d.AddForce(new Vector2(-20*rand, -15*rand)*ballSpeed); //y=-15
+            rb2d.AddForce(new Vector2(-20, -15)*ballSpeed); //y=-15
         }
     }
     void ResetBall()
@@ -56,7 +56,7 @@ public class BallControl : MonoBehaviour
                 vel.y = 2.0f;
             }
 
-            ballSpeed += 0.0001f;
+            ballSpeed += 0.01f;
             rb2d.linearVelocity = vel;
 
         }
