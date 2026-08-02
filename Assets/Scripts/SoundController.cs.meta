@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7a442d5b50923924999b8a388a937e5a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - paddleSound: {fileID: 8300000, guid: b12899898ae95ea4a84c19d822fd7cf4, type: 3}
+  - wallSound: {fileID: 8300000, guid: aef8158df5b8114418e800560012d5e1, type: 3}
+  - winSound: {fileID: 8300000, guid: 8359f5270d922c344a760056a94cee27, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
